@@ -57,19 +57,11 @@ text using FastAPI, Streamlit and SQLite.
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=chinmaygit-lab&show_icons=true&theme=github_dark&hide_border=true" />
+  <img src="https://github-readme-stats.shio.dev/api?username=chinmaygit-lab&theme=dark&hide_border=true&include_all_commits=true" />
 </p>
 
 <p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=chinmaygit-lab&layout=compact&theme=github_dark&hide_border=true" />
-</p>
-
----
-
-## 📈 Contribution Activity
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=chinmaygit-lab&theme=github-dark&hide_border=true" />
+  <img src="https://streak-stats.demolab.com/?user=chinmaygit-lab&theme=dark&hide_border=true" />
 </p>
 
 ---
@@ -79,3 +71,4 @@ text using FastAPI, Streamlit and SQLite.
 ### Build • Test • Learn • Improve
 
 </div>
+
