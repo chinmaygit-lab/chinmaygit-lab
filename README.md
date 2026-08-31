@@ -56,9 +56,6 @@ text using FastAPI, Streamlit and SQLite.
 
 ## 📊 GitHub Stats
 
-<p align="center">
-  <img src="https://github-readme-stats.shio.dev/api?username=chinmaygit-lab&theme=dark&hide_border=true&include_all_commits=true" />
-</p>
 
 <p align="center">
   <img src="https://streak-stats.demolab.com/?user=chinmaygit-lab&theme=dark&hide_border=true" />
