@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="130" viewBox="0 0 1200 130">
+<rect width="1200" height="130" rx="18" fill="#0b1220" stroke="#24364f"/>
+<text x="42" y="42" fill="#e5eefb" font-family="monospace" font-size="18">LIVE STATUS // waiting for first dashboard refresh</text>
+<text x="42" y="82" fill="#8ba3be" font-family="monospace" font-size="15">Run GitHub Actions → Refresh developer command center → Run workflow</text>
+<circle cx="1135" cy="65" r="10" fill="#f59e0b"/>
+</svg>

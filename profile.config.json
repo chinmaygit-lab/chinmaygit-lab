@@ -1,0 +1,27 @@
+{
+  "username": "chinmaygit-lab",
+  "current_focus": "Finishing ConformalGuard v1.0",
+  "featured_repositories": [
+    {
+      "repo": "ConformalGuard",
+      "label": "ConformalGuard",
+      "area": "Reliable ML"
+    },
+    {
+      "repo": "retailpilot",
+      "label": "RetailPilot",
+      "area": "Android Product"
+    },
+    {
+      "repo": "social-saver-cognitive-engine",
+      "label": "Social Saver",
+      "area": "Backend Systems"
+    },
+    {
+      "repo": "Anomaly-Detection-Model",
+      "label": "Anomaly Detection",
+      "area": "Applied ML"
+    }
+  ],
+  "activity_limit": 5
+}

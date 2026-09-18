@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#07111f"/>
+      <stop offset="100%" stop-color="#101b2d"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" x2="1">
+      <stop offset="0%" stop-color="#3b82f6"/>
+      <stop offset="100%" stop-color="#22d3ee"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="1200" height="360" rx="24" fill="url(#bg)"/>
+  <rect x="1" y="1" width="1198" height="358" rx="23" fill="none" stroke="#24364f"/>
+  <g opacity=".28" stroke="#27405d">
+    <path d="M40 70H1160M40 120H1160M40 170H1160M40 220H1160M40 270H1160M40 320H1160"/>
+    <path d="M120 35V330M260 35V330M400 35V330M540 35V330M680 35V330M820 35V330M960 35V330M1100 35V330"/>
+  </g>
+  <circle cx="83" cy="58" r="7" fill="#22c55e"/>
+  <text x="105" y="64" fill="#86efac" font-family="monospace" font-size="17">SYSTEM ONLINE</text>
+  <text x="70" y="135" fill="#e5eefb" font-family="Segoe UI,Arial,sans-serif" font-size="44" font-weight="700">
+    CHINMAYA // DEVELOPER COMMAND CENTER
+  </text>
+  <rect x="70" y="158" width="660" height="4" rx="2" fill="url(#line)" filter="url(#glow)"/>
+  <text x="70" y="208" fill="#9fb2cc" font-family="monospace" font-size="20">
+    APPLIED ML  •  RELIABLE ML  •  BACKEND  •  PRODUCT ENGINEERING
+  </text>
+  <g font-family="monospace" font-size="16">
+    <rect x="70" y="248" width="205" height="52" rx="10" fill="#0b1a2b" stroke="#2f5175"/>
+    <text x="92" y="280" fill="#93c5fd">BUILD / TEST</text>
+    <rect x="292" y="248" width="205" height="52" rx="10" fill="#0b1a2b" stroke="#2f5175"/>
+    <text x="314" y="280" fill="#67e8f9">VALIDATE</text>
+    <rect x="514" y="248" width="205" height="52" rx="10" fill="#0b1a2b" stroke="#2f5175"/>
+    <text x="536" y="280" fill="#c4b5fd">DOCUMENT</text>
+    <rect x="736" y="248" width="205" height="52" rx="10" fill="#0b1a2b" stroke="#2f5175"/>
+    <text x="758" y="280" fill="#86efac">IMPROVE</text>
+  </g>
+  <g transform="translate(1015 84)">
+    <circle cx="65" cy="65" r="54" fill="none" stroke="#1f3a56" stroke-width="9"/>
+    <path d="M65 11 A54 54 0 1 1 22 97" fill="none" stroke="url(#line)" stroke-width="9" stroke-linecap="round"/>
+    <text x="65" y="61" text-anchor="middle" fill="#e5eefb" font-family="monospace" font-size="17">ACTIVE</text>
+    <text x="65" y="84" text-anchor="middle" fill="#7dd3fc" font-family="monospace" font-size="14">SYSTEMS</text>
+  </g>
+</svg>
