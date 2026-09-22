@@ -22,13 +22,13 @@
 <!-- DASHBOARD:START -->
 | System | State | Language | Last push | Latest commit |
 |---|---|---|---|---|
-| [ConformalGuard](https://github.com/chinmaygit-lab/ConformalGuard) | `ACTIVE` | Python | 14h ago | [docs: finalize ConformalGuard project documentation](https://github.com/chinmaygit-lab/ConformalGuard/commit/9c3900208fbdf81d83227253b4e52228585dd6e0) |
-| [RetailPilot](https://github.com/chinmaygit-lab/retailpilot) | `RECENT` | Kotlin | 18d ago | [Add Android CI workflow](https://github.com/chinmaygit-lab/retailpilot/commit/a273eed875dc0e54582dd20c21b2c3bca75eb7cc) |
-| [Social Saver](https://github.com/chinmaygit-lab/social-saver-cognitive-engine) | `QUIET` | Python | 210d ago | [Revise README with project details and demo link](https://github.com/chinmaygit-lab/social-saver-cognitive-engine/commit/710956c9caee62b2fe88be25332bc3b7a5036794) |
-| [Anomaly Detection](https://github.com/chinmaygit-lab/Anomaly-Detection-Model) | `QUIET` | Jupyter Notebook | 189d ago | [Update README.md](https://github.com/chinmaygit-lab/Anomaly-Detection-Model/commit/349cb48dd3985fc338a09882e2c97899261af840) |
+| [ConformalGuard](https://github.com/chinmaygit-lab/ConformalGuard) | `ACTIVE` | Python | 17h ago | [feat: add multi-dataset robustness benchmark suite](https://github.com/chinmaygit-lab/ConformalGuard/commit/d89a86ffdfa4a1730a619c88c3ec853b874ba195) |
+| [RetailPilot](https://github.com/chinmaygit-lab/retailpilot) | `ACTIVE` | Kotlin | 15h ago | [feat: productize RetailPilot v1 release workflow](https://github.com/chinmaygit-lab/retailpilot/commit/a8ccb412f871276d990a955dd045f83905a4bc94) |
+| [Social Saver](https://github.com/chinmaygit-lab/social-saver-cognitive-engine) | `QUIET` | Python | 211d ago | [Revise README with project details and demo link](https://github.com/chinmaygit-lab/social-saver-cognitive-engine/commit/710956c9caee62b2fe88be25332bc3b7a5036794) |
+| [Anomaly Detection](https://github.com/chinmaygit-lab/Anomaly-Detection-Model) | `QUIET` | Jupyter Notebook | 190d ago | [Update README.md](https://github.com/chinmaygit-lab/Anomaly-Detection-Model/commit/349cb48dd3985fc338a09882e2c97899261af840) |
 
 **Current workstream:** Finishing ConformalGuard v1.0  
-**Dashboard refreshed:** 2026-09-21 09:02 UTC
+**Dashboard refreshed:** 2026-09-22 08:37 UTC
 <!-- DASHBOARD:END -->
 
 <p align="center">
@@ -125,11 +125,11 @@ Worked on authentication/authorization-log analysis, preprocessing, feature engi
 ## ◈ Recent Public Activity
 
 <!-- ACTIVITY:START -->
-- **Push** · `chinmaygit-lab/ConformalGuard` · pushed commits · 14h ago
-- **Push** · `chinmaygit-lab/ConformalGuard` · pushed commits · 14h ago
-- **Push** · `chinmaygit-lab/ConformalGuard` · pushed commits · 15h ago
-- **Push** · `chinmaygit-lab/ConformalGuard` · pushed commits · 15h ago
-- **Push** · `chinmaygit-lab/ConformalGuard` · pushed commits · 15h ago
+- **Push** · `chinmaygit-lab/retailpilot` · pushed commits · 15h ago
+- **Release** · `chinmaygit-lab/retailpilot` · v1.0.0 · 15h ago
+- **Push** · `chinmaygit-lab/ConformalGuard` · pushed commits · 17h ago
+- **Push** · `chinmaygit-lab/ConformalGuard` · pushed commits · 19h ago
+- **Push** · `chinmaygit-lab/ConformalGuard` · pushed commits · 19h ago
 <!-- ACTIVITY:END -->
 
 ## ◈ Engineering Principles
