@@ -1,0 +1,60 @@
+{
+  "generated_at": "2026-09-22T16:00:00Z",
+  "workstream": "Building ConformalGuard reliability tooling and release quality",
+  "profile": "https://github.com/chinmaygit-lab",
+  "projects": [
+    {
+      "id": "conformalguard",
+      "repo_name": "ConformalGuard",
+      "name": "ConformalGuard",
+      "repo": "https://github.com/chinmaygit-lab/ConformalGuard",
+      "state": "ACTIVE",
+      "language": "Python",
+      "summary": "Reproducible conformal prediction benchmarks under distribution shift.",
+      "last_push": "recent",
+      "latest_commit": {"message": "multi-dataset robustness benchmark work"},
+      "release": {},
+      "workflow": {}
+    },
+    {
+      "id": "retailpilot",
+      "repo_name": "retailpilot",
+      "name": "RetailPilot",
+      "repo": "https://github.com/chinmaygit-lab/retailpilot",
+      "state": "ACTIVE",
+      "language": "Kotlin",
+      "summary": "Offline-first Android POS and inventory management system.",
+      "last_push": "recent",
+      "latest_commit": {"message": "v1 release workflow"},
+      "release": {"tag": "v1.0.0"},
+      "workflow": {}
+    },
+    {
+      "id": "socialsaver",
+      "repo_name": "social-saver-cognitive-engine",
+      "name": "Social Saver",
+      "repo": "https://github.com/chinmaygit-lab/social-saver-cognitive-engine",
+      "state": "QUIET",
+      "language": "Python",
+      "summary": "AI-powered cognitive engine for organizing, searching, scoring, and resurfacing saved content.",
+      "last_push": "older",
+      "latest_commit": {},
+      "release": {},
+      "workflow": {}
+    },
+    {
+      "id": "anomaly",
+      "repo_name": "Anomaly-Detection-Model",
+      "name": "Anomaly Detection",
+      "repo": "https://github.com/chinmaygit-lab/Anomaly-Detection-Model",
+      "state": "QUIET",
+      "language": "Jupyter Notebook",
+      "summary": "Hybrid anomaly detection system using Transformer-VAE representations and attention-based fusion.",
+      "last_push": "older",
+      "latest_commit": {},
+      "release": {},
+      "workflow": {}
+    }
+  ],
+  "activity": []
+}
