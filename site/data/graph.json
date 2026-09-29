@@ -12,16 +12,23 @@
       "label": "Engineering Core",
       "short": "CORE",
       "description": "Shared loop across the portfolio: build, test, stress, measure, explain, improve.",
-      "tags": ["engineering", "systems", "evidence"]
+      "tags": [
+        "engineering",
+        "systems",
+        "evidence"
+      ]
     },
-
     {
       "id": "cap-reliability",
       "kind": "capability",
       "label": "Reliable ML",
       "short": "RELIABLE ML",
       "description": "Measure model behavior under assumptions, stress, and distribution change instead of relying on a single headline metric.",
-      "tags": ["reliability", "ml", "evaluation"]
+      "tags": [
+        "reliability",
+        "ml",
+        "evaluation"
+      ]
     },
     {
       "id": "cap-reproducibility",
@@ -29,7 +36,11 @@
       "label": "Reproducibility",
       "short": "REPRODUCIBILITY",
       "description": "Explicit seeds, controlled configuration, repeatable experiments, and inspectable artifacts.",
-      "tags": ["reliability", "engineering", "testing"]
+      "tags": [
+        "reliability",
+        "engineering",
+        "testing"
+      ]
     },
     {
       "id": "cap-testing",
@@ -37,7 +48,11 @@
       "label": "Verification & CI",
       "short": "VERIFY / CI",
       "description": "Tests, builds, linting, release gates, and automated verification as part of engineering rather than cleanup.",
-      "tags": ["engineering", "testing", "product"]
+      "tags": [
+        "engineering",
+        "testing",
+        "product"
+      ]
     },
     {
       "id": "cap-observability",
@@ -45,7 +60,11 @@
       "label": "Evidence & Reporting",
       "short": "EVIDENCE",
       "description": "Turn system behavior into reports, metrics, visualizations, and artifacts that can be inspected later.",
-      "tags": ["reliability", "engineering", "product"]
+      "tags": [
+        "reliability",
+        "engineering",
+        "product"
+      ]
     },
     {
       "id": "cap-shift",
@@ -53,7 +72,10 @@
       "label": "Distribution Shift",
       "short": "SHIFT",
       "description": "Controlled covariate, label, and concept changes for probing how ML behavior degrades away from IID conditions.",
-      "tags": ["reliability", "ml"]
+      "tags": [
+        "reliability",
+        "ml"
+      ]
     },
     {
       "id": "cap-backend",
@@ -61,7 +83,10 @@
       "label": "Backend Systems",
       "short": "BACKEND",
       "description": "APIs, persistence, domain logic, and data movement behind user-facing products.",
-      "tags": ["backend", "product"]
+      "tags": [
+        "backend",
+        "product"
+      ]
     },
     {
       "id": "cap-state",
@@ -69,7 +94,11 @@
       "label": "State & Data Integrity",
       "short": "STATE",
       "description": "Model state carefully, preserve invariants, migrate schemas deliberately, and keep data usable under real product workflows.",
-      "tags": ["backend", "product", "reliability"]
+      "tags": [
+        "backend",
+        "product",
+        "reliability"
+      ]
     },
     {
       "id": "cap-product",
@@ -77,7 +106,10 @@
       "label": "Product Engineering",
       "short": "PRODUCT",
       "description": "Build complete user workflows rather than isolated demos: packaging, release, UX, persistence, and maintainability.",
-      "tags": ["product", "engineering"]
+      "tags": [
+        "product",
+        "engineering"
+      ]
     },
     {
       "id": "cap-retrieval",
@@ -85,7 +117,11 @@
       "label": "Retrieval & Ranking",
       "short": "RETRIEVAL",
       "description": "Ingest, classify, score, search, cluster, and resurface information based on usefulness.",
-      "tags": ["backend", "ml", "product"]
+      "tags": [
+        "backend",
+        "ml",
+        "product"
+      ]
     },
     {
       "id": "cap-explainability",
@@ -93,7 +129,11 @@
       "label": "Explainable Decisions",
       "short": "EXPLAIN",
       "description": "Expose why a system classified, scored, or surfaced something instead of returning opaque output.",
-      "tags": ["ml", "product", "reliability"]
+      "tags": [
+        "ml",
+        "product",
+        "reliability"
+      ]
     },
     {
       "id": "cap-security",
@@ -101,7 +141,10 @@
       "label": "Security ML",
       "short": "SECURITY ML",
       "description": "Apply representation learning and anomaly detection to security-oriented event and identity-compromise signals.",
-      "tags": ["security", "ml"]
+      "tags": [
+        "security",
+        "ml"
+      ]
     },
     {
       "id": "cap-ensemble",
@@ -109,9 +152,12 @@
       "label": "Hybrid ML Pipelines",
       "short": "HYBRID ML",
       "description": "Combine learned representations with classical models and score fusion instead of forcing one model to do everything.",
-      "tags": ["security", "ml", "engineering"]
+      "tags": [
+        "security",
+        "ml",
+        "engineering"
+      ]
     },
-
     {
       "id": "conformalguard",
       "kind": "project",
@@ -119,8 +165,14 @@
       "short": "ConformalGuard",
       "repo_name": "ConformalGuard",
       "url": "https://github.com/chinmaygit-lab/ConformalGuard",
-      "description": "CPU-friendly toolkit for stress-testing conformal classification under IID, covariate, label, and concept shift.",
-      "tags": ["reliability", "ml", "testing", "engineering"],
+      "description": "CPU-friendly conformal prediction toolkit for reproducible IID, covariate-shift, label-shift, and concept-shift stress tests with coverage, degradation, CSV/JSON, plot, and HTML reporting.",
+      "tags": [
+        "ml",
+        "reliability",
+        "testing",
+        "reproducibility",
+        "distribution-shift"
+      ],
       "angle": 225
     },
     {
@@ -130,8 +182,14 @@
       "short": "RetailPilot",
       "repo_name": "retailpilot",
       "url": "https://github.com/chinmaygit-lab/retailpilot",
-      "description": "Offline-first Android POS and inventory system with modular architecture, Room persistence, migrations, and release workflows.",
-      "tags": ["product", "backend", "testing", "engineering"],
+      "description": "Offline-first Android POS and inventory system with Room persistence, versioned migrations, modular Kotlin architecture, checkout and stock workflows, barcode/OCR assistance, testing, and release automation.",
+      "tags": [
+        "product",
+        "backend",
+        "testing",
+        "engineering",
+        "offline-first"
+      ],
       "angle": 315
     },
     {
@@ -141,8 +199,14 @@
       "short": "Social Saver",
       "repo_name": "social-saver-cognitive-engine",
       "url": "https://github.com/chinmaygit-lab/social-saver-cognitive-engine",
-      "description": "Cognitive layer for ingesting, classifying, scoring, searching, clustering, and resurfacing saved information.",
-      "tags": ["backend", "ml", "product", "retrieval"],
+      "description": "Cognitive information-retrieval system using FastAPI, SQLite, explainable classification and scoring, thematic clustering, search, smart resurfacing, and a Streamlit dashboard.",
+      "tags": [
+        "backend",
+        "ml",
+        "product",
+        "retrieval",
+        "explainability"
+      ],
       "angle": 45
     },
     {
@@ -152,143 +216,196 @@
       "short": "Anomaly Detection",
       "repo_name": "Anomaly-Detection-Model",
       "url": "https://github.com/chinmaygit-lab/Anomaly-Detection-Model",
-      "description": "Hybrid security anomaly pipeline using Transformer-VAE representations, classical outlier detectors, and attention-based score fusion.",
-      "tags": ["security", "ml", "evaluation"],
+      "description": "Hybrid security anomaly pipeline combining Transformer-VAE latent representations, Isolation Forest, One-Class SVM, Local Outlier Factor, and attention-based score fusion.",
+      "tags": [
+        "security",
+        "ml",
+        "evaluation",
+        "ensemble",
+        "reliability"
+      ],
       "angle": 135
     },
-
     {
       "id": "ev-cg-shifts",
       "kind": "evidence",
       "project": "conformalguard",
-      "label": "Controlled shift families",
-      "short": "IID + 3 SHIFTS",
-      "description": "IID reference plus covariate, label, and concept shift experiments with explicit severity/configuration.",
+      "label": "Controlled distribution-shift benchmarks",
+      "short": "SHIFT GRID",
+      "description": "Reproducible IID, covariate-shift, label-shift, and concept-shift experiments measure how conformal coverage changes when deployment conditions diverge from calibration conditions.",
       "url": "https://github.com/chinmaygit-lab/ConformalGuard#supported-shift-families",
-      "tags": ["reliability", "ml", "shift"]
+      "tags": [
+        "ml",
+        "distribution-shift",
+        "evaluation"
+      ]
     },
     {
       "id": "ev-cg-degradation",
       "kind": "evidence",
       "project": "conformalguard",
-      "label": "IID-relative degradation",
-      "short": "Δ VS IID",
-      "description": "Normalized degradation analysis compares shifted accuracy, F1, coverage, coverage gap, set size, and empty-set rate against IID.",
-      "url": "https://github.com/chinmaygit-lab/ConformalGuard/tree/main/src/conformalguard/experiments",
-      "tags": ["reliability", "evaluation", "reporting"]
+      "label": "Coverage and degradation reporting",
+      "short": "DEGRADATION",
+      "description": "Runs track empirical coverage, coverage gap, accuracy, macro F1, prediction-set size, empty-set rate, and IID-relative degradation.",
+      "url": "https://github.com/chinmaygit-lab/ConformalGuard#why-conformalguard",
+      "tags": [
+        "reliability",
+        "evaluation",
+        "observability"
+      ]
     },
     {
       "id": "ev-cg-suite",
       "kind": "evidence",
       "project": "conformalguard",
-      "label": "Multi-dataset suite",
-      "short": "DATASET SUITE",
-      "description": "Network-free robustness suite runs built-in datasets and emits per-dataset plus aggregate scorecards.",
-      "url": "https://github.com/chinmaygit-lab/ConformalGuard#multi-dataset-benchmark",
-      "tags": ["reliability", "reproducibility", "evaluation"]
+      "label": "Reproducible benchmark suite",
+      "short": "BENCH SUITE",
+      "description": "The benchmark interface executes controlled shift grids across multiple seeds and produces machine-readable CSV/JSON artifacts alongside plots.",
+      "url": "https://github.com/chinmaygit-lab/ConformalGuard#what-gets-generated",
+      "tags": [
+        "testing",
+        "reproducibility",
+        "ml"
+      ]
     },
     {
       "id": "ev-cg-interface",
       "kind": "evidence",
       "project": "conformalguard",
-      "label": "CLI + Python API + report",
-      "short": "API / CLI",
-      "description": "High-level API and CLI produce summary/degradation data plus static HTML and plot artifacts.",
+      "label": "CLI, Python API, and HTML report",
+      "short": "USER SURFACE",
+      "description": "ConformalGuard exposes a CLI and high-level Python API and can save a static HTML report containing summary cards, tables, and plots.",
       "url": "https://github.com/chinmaygit-lab/ConformalGuard#30-second-quickstart",
-      "tags": ["product", "engineering", "reporting"]
+      "tags": [
+        "product",
+        "observability",
+        "engineering"
+      ]
     },
     {
       "id": "ev-cg-tests",
       "kind": "evidence",
       "project": "conformalguard",
-      "label": "Regression test surface",
-      "short": "TEST SUITE",
-      "description": "Tests cover the experiment, degradation, plotting, reporting, and public API surface; live repository status is shown separately.",
-      "url": "https://github.com/chinmaygit-lab/ConformalGuard/tree/main/tests",
-      "tags": ["testing", "reproducibility", "engineering"]
+      "label": "CI, lint, tests, and package validation",
+      "short": "QUALITY GATE",
+      "description": "The project CI exercises the test suite, lint checks, package builds, and distribution validation before artifacts are treated as releasable.",
+      "url": "https://github.com/chinmaygit-lab/ConformalGuard/blob/main/.github/workflows/ci.yml",
+      "tags": [
+        "testing",
+        "engineering",
+        "reproducibility"
+      ]
     },
-
     {
       "id": "ev-rp-offline",
       "kind": "evidence",
       "project": "retailpilot",
-      "label": "Offline-first Room state",
-      "short": "OFFLINE STATE",
-      "description": "Core retail workflows stay usable without a network connection through local Room persistence.",
+      "label": "Offline-first Room persistence",
+      "short": "OFFLINE CORE",
+      "description": "Core checkout and inventory workflows use local Room persistence so important retail operations remain usable without a network connection.",
       "url": "https://github.com/chinmaygit-lab/retailpilot#what-it-does",
-      "tags": ["product", "backend", "state"]
+      "tags": [
+        "product",
+        "state",
+        "backend"
+      ]
     },
     {
       "id": "ev-rp-integrity",
       "kind": "evidence",
       "project": "retailpilot",
-      "label": "Inventory & money invariants",
+      "label": "Versioned schema and inventory integrity",
       "short": "DATA INTEGRITY",
-      "description": "Inventory movements, stock batches, insufficient-stock validation, integer minor-unit money storage, and versioned migrations.",
+      "description": "Retail state is modeled with explicit sale, purchase, payment, stock batch, stock movement, supplier, and price-history entities, with versioned Room migrations and migration tests.",
       "url": "https://github.com/chinmaygit-lab/retailpilot#data-integrity",
-      "tags": ["reliability", "backend", "state"]
+      "tags": [
+        "state",
+        "testing",
+        "reliability"
+      ]
     },
     {
       "id": "ev-rp-modules",
       "kind": "evidence",
       "project": "retailpilot",
       "label": "Modular Android architecture",
-      "short": "APP / CORE / FEATURE",
-      "description": "Responsibilities are separated across app, core, feature:store, and feature:reports modules.",
+      "short": "APP MODULES",
+      "description": "The application separates entry/navigation, shared data infrastructure, store workflows, and reporting into app, core, and feature modules.",
       "url": "https://github.com/chinmaygit-lab/retailpilot#why-the-architecture-matters",
-      "tags": ["product", "engineering", "architecture"]
+      "tags": [
+        "product",
+        "engineering",
+        "architecture"
+      ]
     },
     {
       "id": "ev-rp-release",
       "kind": "evidence",
       "project": "retailpilot",
-      "label": "Build / test / lint / release",
+      "label": "Build, test, lint, and release gate",
       "short": "RELEASE GATE",
-      "description": "GitHub Actions mirrors build, unit-test, and lint checks, with a release workflow that validates version and publishes APK/checksum artifacts.",
+      "description": "GitHub Actions mirrors build, unit-test, and lint checks; release automation rebuilds the APK, verifies versionName, computes SHA-256, and publishes the demo artifact and checksum.",
       "url": "https://github.com/chinmaygit-lab/retailpilot#verification",
-      "tags": ["testing", "product", "engineering"]
+      "tags": [
+        "testing",
+        "product",
+        "engineering"
+      ]
     },
-
     {
       "id": "ev-ss-ingest",
       "kind": "evidence",
       "project": "socialsaver",
       "label": "FastAPI ingestion pipeline",
       "short": "INGEST API",
-      "description": "Incoming messages are routed through a FastAPI backend into processing and storage.",
-      "url": "https://github.com/chinmaygit-lab/social-saver-cognitive-engine#%EF%B8%8F-system-architecture",
-      "tags": ["backend", "product"]
+      "description": "Incoming messages flow through the webhook/FastAPI ingestion layer into processing and persistent storage.",
+      "url": "https://github.com/chinmaygit-lab/social-saver-cognitive-engine",
+      "tags": [
+        "backend",
+        "product"
+      ]
     },
     {
       "id": "ev-ss-scoring",
       "kind": "evidence",
       "project": "socialsaver",
-      "label": "Explainable scoring",
+      "label": "Explainable classification and scoring",
       "short": "SCORE + WHY",
-      "description": "Classification and importance scoring expose category and keyword-based reasoning rather than only a final score.",
-      "url": "https://github.com/chinmaygit-lab/social-saver-cognitive-engine#-explainable-classification",
-      "tags": ["ml", "explainability", "product"]
+      "description": "The processing layer assigns categories and importance scores while surfacing keyword-based reasoning so classification decisions remain inspectable.",
+      "url": "https://github.com/chinmaygit-lab/social-saver-cognitive-engine",
+      "tags": [
+        "ml",
+        "explainability",
+        "product"
+      ]
     },
     {
       "id": "ev-ss-retrieval",
       "kind": "evidence",
       "project": "socialsaver",
-      "label": "Search, clusters, resurfacing",
+      "label": "Search, clustering, and resurfacing",
       "short": "RECALL LOOP",
-      "description": "Stored information can be searched, grouped by theme, ranked, and resurfaced as a high-signal memory aid.",
-      "url": "https://github.com/chinmaygit-lab/social-saver-cognitive-engine#-smart-resurfacing",
-      "tags": ["retrieval", "backend", "product"]
+      "description": "Stored information can be searched by keyword/category, grouped into thematic clusters, and resurfaced according to importance so useful saved content can be rediscovered.",
+      "url": "https://github.com/chinmaygit-lab/social-saver-cognitive-engine",
+      "tags": [
+        "retrieval",
+        "backend",
+        "product"
+      ]
     },
-
     {
       "id": "ev-ad-representation",
       "kind": "evidence",
       "project": "anomaly",
-      "label": "Transformer-VAE representation",
+      "label": "Transformer-VAE latent representation",
       "short": "LATENT SPACE",
-      "description": "A Patch-Transformer VAE maps mixed high-dimensional data into a compact latent representation.",
-      "url": "https://github.com/chinmaygit-lab/Anomaly-Detection-Model#-methodology--architecture",
-      "tags": ["security", "ml", "representation"]
+      "description": "A Patch-Transformer variational autoencoder maps mixed high-dimensional input data into a compact latent representation used by downstream anomaly detectors.",
+      "url": "https://github.com/chinmaygit-lab/Anomaly-Detection-Model",
+      "tags": [
+        "security",
+        "ml",
+        "representation"
+      ]
     },
     {
       "id": "ev-ad-detectors",
@@ -296,83 +413,394 @@
       "project": "anomaly",
       "label": "Unsupervised detector ensemble",
       "short": "IF / OCSVM / LOF",
-      "description": "Isolation Forest, One-Class SVM, and Local Outlier Factor generate independent anomaly signals on the latent space.",
-      "url": "https://github.com/chinmaygit-lab/Anomaly-Detection-Model#-methodology--architecture",
-      "tags": ["security", "ml", "ensemble"]
+      "description": "Isolation Forest, One-Class SVM, and Local Outlier Factor produce independent anomaly scores over the learned latent representation.",
+      "url": "https://github.com/chinmaygit-lab/Anomaly-Detection-Model",
+      "tags": [
+        "security",
+        "ml",
+        "ensemble"
+      ]
     },
     {
       "id": "ev-ad-fusion",
       "kind": "evidence",
       "project": "anomaly",
-      "label": "Attention score fusion",
-      "short": "ATTENTION FUSION",
-      "description": "A PyTorch attention layer learns how to combine detector scores into a final prediction.",
-      "url": "https://github.com/chinmaygit-lab/Anomaly-Detection-Model#-methodology--architecture",
-      "tags": ["security", "ml", "ensemble"]
+      "label": "Attention-based score fusion",
+      "short": "ATTN FUSION",
+      "description": "A PyTorch multi-head attention fusion layer learns how to combine the detector scores into the final prediction.",
+      "url": "https://github.com/chinmaygit-lab/Anomaly-Detection-Model",
+      "tags": [
+        "security",
+        "ml",
+        "ensemble"
+      ]
+    },
+    {
+      "id": "ev-cg-ci-release",
+      "kind": "evidence",
+      "project": "conformalguard",
+      "label": "Package-quality automation",
+      "short": "CI + DIST",
+      "description": "Continuous integration combines targeted linting, the full pytest suite, package construction, and Twine distribution validation.",
+      "url": "https://github.com/chinmaygit-lab/ConformalGuard/blob/main/.github/workflows/ci.yml",
+      "tags": [
+        "testing",
+        "reproducibility",
+        "engineering"
+      ]
+    },
+    {
+      "id": "ev-rp-assisted-workflows",
+      "kind": "evidence",
+      "project": "retailpilot",
+      "label": "Assisted retail workflows",
+      "short": "BARCODE + OCR",
+      "description": "RetailPilot combines barcode-assisted product flows, ML Kit text recognition, low-stock reminders, invoices, and adaptive layouts around its core offline retail workflow.",
+      "url": "https://github.com/chinmaygit-lab/retailpilot#what-it-does",
+      "tags": [
+        "product",
+        "engineering"
+      ]
+    },
+    {
+      "id": "ev-ss-storage-ui",
+      "kind": "evidence",
+      "project": "socialsaver",
+      "label": "Persistent knowledge dashboard",
+      "short": "SQLITE + UI",
+      "description": "SQLite stores structured posts while the Streamlit presentation layer exposes filtering, visible importance scores, cluster visualization, and rediscovery controls.",
+      "url": "https://github.com/chinmaygit-lab/social-saver-cognitive-engine",
+      "tags": [
+        "backend",
+        "product",
+        "retrieval"
+      ]
+    },
+    {
+      "id": "ev-ad-validation",
+      "kind": "evidence",
+      "project": "anomaly",
+      "label": "Validation-aware training controls",
+      "short": "VALIDATION",
+      "description": "Decision thresholds are tuned on validation data and both the VAE and fusion training loops use validation-loss early stopping.",
+      "url": "https://github.com/chinmaygit-lab/Anomaly-Detection-Model",
+      "tags": [
+        "ml",
+        "reliability",
+        "evaluation"
+      ]
     }
   ],
   "edges": [
-    {"source":"engineering-core","target":"cap-reliability","relation":"principle"},
-    {"source":"engineering-core","target":"cap-reproducibility","relation":"principle"},
-    {"source":"engineering-core","target":"cap-testing","relation":"principle"},
-    {"source":"engineering-core","target":"cap-observability","relation":"principle"},
-    {"source":"engineering-core","target":"cap-state","relation":"principle"},
-    {"source":"engineering-core","target":"cap-product","relation":"principle"},
-
-    {"source":"conformalguard","target":"cap-reliability","relation":"demonstrates"},
-    {"source":"conformalguard","target":"cap-reproducibility","relation":"demonstrates"},
-    {"source":"conformalguard","target":"cap-testing","relation":"demonstrates"},
-    {"source":"conformalguard","target":"cap-observability","relation":"demonstrates"},
-    {"source":"conformalguard","target":"cap-shift","relation":"specializes"},
-
-    {"source":"retailpilot","target":"cap-product","relation":"demonstrates"},
-    {"source":"retailpilot","target":"cap-state","relation":"demonstrates"},
-    {"source":"retailpilot","target":"cap-backend","relation":"demonstrates"},
-    {"source":"retailpilot","target":"cap-testing","relation":"demonstrates"},
-    {"source":"retailpilot","target":"cap-reproducibility","relation":"demonstrates"},
-
-    {"source":"socialsaver","target":"cap-backend","relation":"demonstrates"},
-    {"source":"socialsaver","target":"cap-product","relation":"demonstrates"},
-    {"source":"socialsaver","target":"cap-retrieval","relation":"specializes"},
-    {"source":"socialsaver","target":"cap-explainability","relation":"demonstrates"},
-
-    {"source":"anomaly","target":"cap-security","relation":"specializes"},
-    {"source":"anomaly","target":"cap-ensemble","relation":"demonstrates"},
-    {"source":"anomaly","target":"cap-reliability","relation":"demonstrates"},
-    {"source":"anomaly","target":"cap-observability","relation":"demonstrates"},
-
-    {"source":"ev-cg-shifts","target":"conformalguard","relation":"evidence"},
-    {"source":"ev-cg-degradation","target":"conformalguard","relation":"evidence"},
-    {"source":"ev-cg-suite","target":"conformalguard","relation":"evidence"},
-    {"source":"ev-cg-interface","target":"conformalguard","relation":"evidence"},
-    {"source":"ev-cg-tests","target":"conformalguard","relation":"evidence"},
-    {"source":"ev-cg-shifts","target":"cap-shift","relation":"supports"},
-    {"source":"ev-cg-degradation","target":"cap-reliability","relation":"supports"},
-    {"source":"ev-cg-suite","target":"cap-reproducibility","relation":"supports"},
-    {"source":"ev-cg-interface","target":"cap-observability","relation":"supports"},
-    {"source":"ev-cg-tests","target":"cap-testing","relation":"supports"},
-
-    {"source":"ev-rp-offline","target":"retailpilot","relation":"evidence"},
-    {"source":"ev-rp-integrity","target":"retailpilot","relation":"evidence"},
-    {"source":"ev-rp-modules","target":"retailpilot","relation":"evidence"},
-    {"source":"ev-rp-release","target":"retailpilot","relation":"evidence"},
-    {"source":"ev-rp-offline","target":"cap-state","relation":"supports"},
-    {"source":"ev-rp-integrity","target":"cap-state","relation":"supports"},
-    {"source":"ev-rp-modules","target":"cap-product","relation":"supports"},
-    {"source":"ev-rp-release","target":"cap-testing","relation":"supports"},
-
-    {"source":"ev-ss-ingest","target":"socialsaver","relation":"evidence"},
-    {"source":"ev-ss-scoring","target":"socialsaver","relation":"evidence"},
-    {"source":"ev-ss-retrieval","target":"socialsaver","relation":"evidence"},
-    {"source":"ev-ss-ingest","target":"cap-backend","relation":"supports"},
-    {"source":"ev-ss-scoring","target":"cap-explainability","relation":"supports"},
-    {"source":"ev-ss-retrieval","target":"cap-retrieval","relation":"supports"},
-
-    {"source":"ev-ad-representation","target":"anomaly","relation":"evidence"},
-    {"source":"ev-ad-detectors","target":"anomaly","relation":"evidence"},
-    {"source":"ev-ad-fusion","target":"anomaly","relation":"evidence"},
-    {"source":"ev-ad-representation","target":"cap-ensemble","relation":"supports"},
-    {"source":"ev-ad-detectors","target":"cap-security","relation":"supports"},
-    {"source":"ev-ad-fusion","target":"cap-ensemble","relation":"supports"}
+    {
+      "source": "engineering-core",
+      "target": "cap-reliability",
+      "relation": "principle"
+    },
+    {
+      "source": "engineering-core",
+      "target": "cap-reproducibility",
+      "relation": "principle"
+    },
+    {
+      "source": "engineering-core",
+      "target": "cap-testing",
+      "relation": "principle"
+    },
+    {
+      "source": "engineering-core",
+      "target": "cap-observability",
+      "relation": "principle"
+    },
+    {
+      "source": "engineering-core",
+      "target": "cap-state",
+      "relation": "principle"
+    },
+    {
+      "source": "engineering-core",
+      "target": "cap-product",
+      "relation": "principle"
+    },
+    {
+      "source": "conformalguard",
+      "target": "cap-reliability",
+      "relation": "demonstrates"
+    },
+    {
+      "source": "conformalguard",
+      "target": "cap-reproducibility",
+      "relation": "demonstrates"
+    },
+    {
+      "source": "conformalguard",
+      "target": "cap-testing",
+      "relation": "demonstrates"
+    },
+    {
+      "source": "conformalguard",
+      "target": "cap-observability",
+      "relation": "demonstrates"
+    },
+    {
+      "source": "conformalguard",
+      "target": "cap-shift",
+      "relation": "specializes"
+    },
+    {
+      "source": "retailpilot",
+      "target": "cap-product",
+      "relation": "demonstrates"
+    },
+    {
+      "source": "retailpilot",
+      "target": "cap-state",
+      "relation": "demonstrates"
+    },
+    {
+      "source": "retailpilot",
+      "target": "cap-backend",
+      "relation": "demonstrates"
+    },
+    {
+      "source": "retailpilot",
+      "target": "cap-testing",
+      "relation": "demonstrates"
+    },
+    {
+      "source": "retailpilot",
+      "target": "cap-reproducibility",
+      "relation": "demonstrates"
+    },
+    {
+      "source": "socialsaver",
+      "target": "cap-backend",
+      "relation": "demonstrates"
+    },
+    {
+      "source": "socialsaver",
+      "target": "cap-product",
+      "relation": "demonstrates"
+    },
+    {
+      "source": "socialsaver",
+      "target": "cap-retrieval",
+      "relation": "specializes"
+    },
+    {
+      "source": "socialsaver",
+      "target": "cap-explainability",
+      "relation": "demonstrates"
+    },
+    {
+      "source": "anomaly",
+      "target": "cap-security",
+      "relation": "specializes"
+    },
+    {
+      "source": "anomaly",
+      "target": "cap-ensemble",
+      "relation": "demonstrates"
+    },
+    {
+      "source": "anomaly",
+      "target": "cap-reliability",
+      "relation": "demonstrates"
+    },
+    {
+      "source": "anomaly",
+      "target": "cap-observability",
+      "relation": "demonstrates"
+    },
+    {
+      "source": "ev-cg-shifts",
+      "target": "conformalguard",
+      "relation": "evidence"
+    },
+    {
+      "source": "ev-cg-degradation",
+      "target": "conformalguard",
+      "relation": "evidence"
+    },
+    {
+      "source": "ev-cg-suite",
+      "target": "conformalguard",
+      "relation": "evidence"
+    },
+    {
+      "source": "ev-cg-interface",
+      "target": "conformalguard",
+      "relation": "evidence"
+    },
+    {
+      "source": "ev-cg-tests",
+      "target": "conformalguard",
+      "relation": "evidence"
+    },
+    {
+      "source": "ev-cg-shifts",
+      "target": "cap-shift",
+      "relation": "supports"
+    },
+    {
+      "source": "ev-cg-degradation",
+      "target": "cap-reliability",
+      "relation": "supports"
+    },
+    {
+      "source": "ev-cg-suite",
+      "target": "cap-reproducibility",
+      "relation": "supports"
+    },
+    {
+      "source": "ev-cg-interface",
+      "target": "cap-observability",
+      "relation": "supports"
+    },
+    {
+      "source": "ev-cg-tests",
+      "target": "cap-testing",
+      "relation": "supports"
+    },
+    {
+      "source": "ev-rp-offline",
+      "target": "retailpilot",
+      "relation": "evidence"
+    },
+    {
+      "source": "ev-rp-integrity",
+      "target": "retailpilot",
+      "relation": "evidence"
+    },
+    {
+      "source": "ev-rp-modules",
+      "target": "retailpilot",
+      "relation": "evidence"
+    },
+    {
+      "source": "ev-rp-release",
+      "target": "retailpilot",
+      "relation": "evidence"
+    },
+    {
+      "source": "ev-rp-offline",
+      "target": "cap-state",
+      "relation": "supports"
+    },
+    {
+      "source": "ev-rp-integrity",
+      "target": "cap-state",
+      "relation": "supports"
+    },
+    {
+      "source": "ev-rp-modules",
+      "target": "cap-product",
+      "relation": "supports"
+    },
+    {
+      "source": "ev-rp-release",
+      "target": "cap-testing",
+      "relation": "supports"
+    },
+    {
+      "source": "ev-ss-ingest",
+      "target": "socialsaver",
+      "relation": "evidence"
+    },
+    {
+      "source": "ev-ss-scoring",
+      "target": "socialsaver",
+      "relation": "evidence"
+    },
+    {
+      "source": "ev-ss-retrieval",
+      "target": "socialsaver",
+      "relation": "evidence"
+    },
+    {
+      "source": "ev-ss-ingest",
+      "target": "cap-backend",
+      "relation": "supports"
+    },
+    {
+      "source": "ev-ss-scoring",
+      "target": "cap-explainability",
+      "relation": "supports"
+    },
+    {
+      "source": "ev-ss-retrieval",
+      "target": "cap-retrieval",
+      "relation": "supports"
+    },
+    {
+      "source": "ev-ad-representation",
+      "target": "anomaly",
+      "relation": "evidence"
+    },
+    {
+      "source": "ev-ad-detectors",
+      "target": "anomaly",
+      "relation": "evidence"
+    },
+    {
+      "source": "ev-ad-fusion",
+      "target": "anomaly",
+      "relation": "evidence"
+    },
+    {
+      "source": "ev-ad-representation",
+      "target": "cap-ensemble",
+      "relation": "supports"
+    },
+    {
+      "source": "ev-ad-detectors",
+      "target": "cap-security",
+      "relation": "supports"
+    },
+    {
+      "source": "ev-ad-fusion",
+      "target": "cap-ensemble",
+      "relation": "supports"
+    },
+    {
+      "source": "ev-cg-ci-release",
+      "target": "conformalguard",
+      "relation": "evidence"
+    },
+    {
+      "source": "ev-cg-ci-release",
+      "target": "cap-testing",
+      "relation": "supports"
+    },
+    {
+      "source": "ev-rp-assisted-workflows",
+      "target": "retailpilot",
+      "relation": "evidence"
+    },
+    {
+      "source": "ev-rp-assisted-workflows",
+      "target": "cap-product",
+      "relation": "supports"
+    },
+    {
+      "source": "ev-ss-storage-ui",
+      "target": "socialsaver",
+      "relation": "evidence"
+    },
+    {
+      "source": "ev-ss-storage-ui",
+      "target": "cap-product",
+      "relation": "supports"
+    },
+    {
+      "source": "ev-ad-validation",
+      "target": "anomaly",
+      "relation": "evidence"
+    },
+    {
+      "source": "ev-ad-validation",
+      "target": "cap-reliability",
+      "relation": "supports"
+    }
   ]
 }
