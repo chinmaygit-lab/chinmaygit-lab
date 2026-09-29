@@ -165,13 +165,14 @@
       "short": "ConformalGuard",
       "repo_name": "ConformalGuard",
       "url": "https://github.com/chinmaygit-lab/ConformalGuard",
-      "description": "CPU-friendly conformal prediction toolkit for reproducible IID, covariate-shift, label-shift, and concept-shift stress tests with coverage, degradation, CSV/JSON, plot, and HTML reporting.",
+      "description": "CPU-friendly conformal prediction reliability toolkit for measuring coverage failure under IID, covariate, label, and concept shift. Includes reproducible stress grids, degradation analysis, multi-dataset benchmarks, CLI/Python APIs, and HTML reporting.",
       "tags": [
         "ml",
         "reliability",
+        "distribution-shift",
         "testing",
         "reproducibility",
-        "distribution-shift"
+        "evaluation"
       ],
       "angle": 225
     },
@@ -489,6 +490,51 @@
         "reliability",
         "evaluation"
       ]
+    },
+    {
+      "id": "ev-cg-multidataset",
+      "kind": "evidence",
+      "project": "conformalguard",
+      "label": "Cross-dataset robustness suite",
+      "short": "MULTI-DATASET",
+      "description": "A network-free benchmark suite runs controlled robustness experiments across Breast Cancer, Iris, Wine, and optional Digits datasets, producing per-dataset and aggregate reports.",
+      "url": "https://github.com/chinmaygit-lab/ConformalGuard#multi-dataset-benchmark",
+      "tags": [
+        "ml",
+        "reproducibility",
+        "evaluation",
+        "testing"
+      ]
+    },
+    {
+      "id": "ev-cg-metrics",
+      "kind": "evidence",
+      "project": "conformalguard",
+      "label": "Coverage reliability metrics",
+      "short": "COVERAGE GAP",
+      "description": "Stress runs track empirical coverage, coverage gap, accuracy, macro F1, prediction-set size, empty-set rate, and IID-relative degradation across seeds.",
+      "url": "https://github.com/chinmaygit-lab/ConformalGuard#why-conformalguard",
+      "tags": [
+        "ml",
+        "reliability",
+        "evaluation",
+        "observability"
+      ]
+    },
+    {
+      "id": "ev-cg-api-report",
+      "kind": "evidence",
+      "project": "conformalguard",
+      "label": "High-level API and HTML reporting",
+      "short": "API + REPORT",
+      "description": "The ConformalGuard facade runs controlled shift grids through a high-level Python interface, while save_report() produces structured CSV/JSON outputs, plots, and a static HTML reliability report.",
+      "url": "https://github.com/chinmaygit-lab/ConformalGuard#30-second-quickstart",
+      "tags": [
+        "product",
+        "ml",
+        "observability",
+        "engineering"
+      ]
     }
   ],
   "edges": [
@@ -800,6 +846,51 @@
     {
       "source": "ev-ad-validation",
       "target": "cap-reliability",
+      "relation": "supports"
+    },
+    {
+      "source": "ev-cg-multidataset",
+      "target": "conformalguard",
+      "relation": "evidence"
+    },
+    {
+      "source": "ev-cg-metrics",
+      "target": "conformalguard",
+      "relation": "evidence"
+    },
+    {
+      "source": "ev-cg-api-report",
+      "target": "conformalguard",
+      "relation": "evidence"
+    },
+    {
+      "source": "ev-cg-multidataset",
+      "target": "cap-reproducibility",
+      "relation": "supports"
+    },
+    {
+      "source": "ev-cg-multidataset",
+      "target": "cap-testing",
+      "relation": "supports"
+    },
+    {
+      "source": "ev-cg-metrics",
+      "target": "cap-reliability",
+      "relation": "supports"
+    },
+    {
+      "source": "ev-cg-metrics",
+      "target": "cap-observability",
+      "relation": "supports"
+    },
+    {
+      "source": "ev-cg-api-report",
+      "target": "cap-observability",
+      "relation": "supports"
+    },
+    {
+      "source": "ev-cg-api-report",
+      "target": "cap-product",
       "relation": "supports"
     }
   ]
